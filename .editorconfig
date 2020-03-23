@@ -78,3 +78,12 @@ csharp_preserve_single_line_blocks = true
 csharp_style_conditional_delegate_call = true:suggestion
 
 csharp_prefer_braces = true:warning
+
+csharp_style_expression_bodied_accessors = when_on_single_line:suggestion
+csharp_style_expression_bodied_constructors = false:suggestion
+csharp_style_expression_bodied_indexers = when_on_single_line:suggestion
+csharp_style_expression_bodied_lambdas = when_on_single_line:suggestion
+csharp_style_expression_bodied_local_functions = when_on_single_line:suggestion
+csharp_style_expression_bodied_methods = when_on_single_line:suggestion
+csharp_style_expression_bodied_operators = when_on_single_line:suggestion
+csharp_style_expression_bodied_properties = when_on_single_line:suggestion
