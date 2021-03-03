@@ -9,6 +9,8 @@ guidelines = 80, 120
 
 # See https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference
 [*.cs]
+end_of_line = crlf
+
 dotnet_naming_style.first_word_upper_case_style.capitalization = first_word_upper
 dotnet_naming_style.underscore_camelcase.capitalization = camel_case
 dotnet_naming_style.underscore_camelcase.required_prefix = _
@@ -88,3 +90,8 @@ csharp_style_expression_bodied_local_functions = false:suggestion
 csharp_style_expression_bodied_methods = false:silent
 csharp_style_expression_bodied_operators = false:suggestion
 csharp_style_expression_bodied_properties = true:suggestion
+
+[*.yml]
+charset = utf-8
+indent_style = space
+indent_size = 2
